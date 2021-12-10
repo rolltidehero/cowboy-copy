@@ -1,52 +1,27 @@
-# Copy Host [![Build Status](https://travis-ci.org/djadmin/copy-host.svg?branch=master)](https://travis-ci.org/djadmin/copy-host)
+# Cowboy Copy 
 
-Copy Host allows you to copy hostname of the current tab to your clipboard.
+Cowboy Copy allows you to copy hostname of the current tab to your clipboard.
 
-[![Install](/screenshots/store_badge.png)](https://chrome.google.com/webstore/detail/copy-host/bnimbjbohdeakocjbldadiggnlmlgmie)
 
-![Screenshot](/screenshots/shot.png)
+## What is it?
 
-## Why?
-
-Chrome in some cases, prepend ```http://``` to the URL when you try to copy. I constantly copy URL from the browser to shell and it makes me crazy. 
-To avoid that, I built this very simple Chrome extension to get only the hostname of the website you are currently browsing. Also, made it a lot easier to copy the hostname with just a shortcut key, i.e., `Alt + C`.
-
-For example, if you try to copy the URL https://www.google.com from the browser and try to ```ping``` using a shell, it doesn't work.
-
-```ping www.google.com``` works perfectly and 'Copy Host' makes it easy to do that.
+Cowboy Copy is a fork of Copy Host which copies the hostname from the address bar in Chrome. It does fine, but leaves "www" which is THE PITS for web hosting professionals. So, Cowboy Copy copies the bare URL- no www- to the clipboard. 
 
 ## Installation
 
-Copy Host is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/copy-host/bnimbjbohdeakocjbldadiggnlmlgmie). No additional permissions are required to install.
+Grab the SRC directory, turn on Developer mode in Chrome and install it. Google is your friend.
 
 ### Keyboard Shortcut
 
 ```Alt + C``` can be used to copy the hostname to your clipboard directly.
 
-### Screenshot
-![Screenshot](/screenshots/fullshot.png)
 
-## Development
-
-1. Clone this repo 
-```git clone https://github.com/djadmin/copy-host```
-
-2. Make your changes.
-
-3. To test, go to: chrome://extensions, enable Developer mode and load src as an unpacked extension.
-
-## Contributing
-
-### Todo
-
-* Configurable Keyboard Shortcut
-* Option to Disable Popup 
 
 ### Issues
 
 Feel free to submit issues and feature requests.
 
 ### License
-
+Forked From HostCopy, which is...
 Copyright (c) 2017 Dheeraj Joshi
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
