@@ -6,7 +6,7 @@
 	<script src="js/popup.js"></script>
 </head>
 <body>
-	<div class="emoji">	&#129312;	&#128077;</div>
+	<div class="emoji">	&#128077;	&#128077;</div>
 	<div id="hostname"></div>
 	<p>Copied to your clipboard </p>
 </body>
