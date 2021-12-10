@@ -2,12 +2,12 @@
   "manifest_version": 2,
 
   "name": "Cowboy Copy",
-  "short_name": "copyhost",
+  "short_name": "cowboycopy",
   "description": "This extension copies the current domain (without WWW) to your clipboard. We don't need no steenkin www! Forked from Copy Host 1.0 by djadmin",
   "version": "0.9",
 
   "browser_action": {
-    "default_icon": "img/cowboy.png",
+    "default_icon": "img/icon16.png",
     "default_title": "Press the button to copy the hostname to the clipboard",
     "default_popup": "popup.html"
   },  

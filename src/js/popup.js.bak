@@ -29,8 +29,8 @@ function closePopup() {
 
 
 chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
-	var ahostname = getHostname(tabs[0].url);
-	var hostname = ahostname.replace(/^www/, "");
+	var hostname = getHostname(tabs[0].url);
+	var hostname = hostname.replace(/^www\./,"");
 	if (!hostname) { closePopup(); return; }
 	// Copy to clipboard and shows a popup
 	executeCopy(hostname);
