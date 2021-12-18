@@ -1,6 +1,7 @@
 # Cowboy Copy 
 
-Cowboy Copy allows you to copy hostname of the current tab to your clipboard.
+Cowboy Copy allows you to copy hostname of the current tab to your clipboard. Available in the Chrome store:
+https://chrome.google.com/webstore/detail/cowboy-copy/amlgaokecclcilbpmdghaiehlagjgcjl/
 
 
 ## What is it?
