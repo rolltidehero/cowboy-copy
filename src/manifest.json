@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Cowboy Copy",
+  "name": "Email Generator from Hostname",
   "short_name": "cowboycopy",
-  "description": "This extension copies the current domain (without WWW) to your clipboard. We don't need no steenkin www! Forked from Copy Host 1.0 by djadmin",
+  "description": "This extension copies the current domain (without WWW) to your clipboard.",
   "version": "0.9",
 
   "browser_action": {
@@ -23,7 +23,7 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Alt+C"
+        "default": "Ctrl+Shift+C"
       }
     }
   }
