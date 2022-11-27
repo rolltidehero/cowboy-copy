@@ -35,4 +35,5 @@ chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
 	// Copy to clipboard and shows a popup
 	executeCopy(hostname);
 	setHostname(hostname);
+	setTimeout(closePopup, 1);
 });
